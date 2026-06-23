@@ -26,6 +26,7 @@ I am using this repository to practice writing clean, readable hardware descript
 | Problem Statement | Solution Module | Concepts Covered |
 | :--- | :--- | :--- |
 | Vector0 | `vector/vector_method1.v` <br> `vector/vector_method2.v` | Bus indexing, bit extraction, unpacking vectors via concatenation (`{...}`) |
+| Vector1 | `vector/vector1.v` | Bus splitting, slicing a 16-bit vector into upper and lower bytes |
 
 
 *More sections will be added as I progress through the problem sets.*
