@@ -21,4 +21,11 @@ I am using this repository to practice writing clean, readable hardware descript
 | Declaring Wires | `declaring_wires.v` | Declaring internal `wire` variables, multi-stage gate tracking |
 | 7458 Chip | `7458_chip.v` <br> `7458_chip_method2.v` | Multi-input complex AND-OR groupings, explicit wires vs. inline expression scaling |
 
+
+### 2.verilog vectors
+| Problem Statement | Solution Module | Concepts Covered |
+| :--- | :--- | :--- |
+| Vector0 | `vector/vector_method1.v` <br> `vector/vector_method2.v` | Bus indexing, bit extraction, unpacking vectors via concatenation (`{...}`) |
+
+
 *More sections will be added as I progress through the problem sets.*
