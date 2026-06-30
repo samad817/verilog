@@ -36,4 +36,13 @@ I am using this repository to practice writing clean, readable hardware descript
 | Vector Replication 2 | `vector/vector_replication2.v` | Creating a 25-bit comparison grid by XNOR-ing top-down and bottom-up replicated vectors |
 
 
+## 3.verilog modules
+
+| Problem Statement | Solution Module | Concepts Covered |
+| :--- | :--- | :--- |
+| Module Instantiation (Base) | `modules/module_pos.v` <br> `modules/module_name.v` | Introduction to hierarchical design, instantiating sub-modules, and connecting basic scalar signals |
+| Modules by Position (`mod_a`) | `modules/moda_pos.v` | Connecting multiple inputs and outputs to a sub-module based strictly on structural ordering |
+| Modules by Name (`mod_a`) | `modules/moda_name.v` | Utilizing explicit named port connections (`.port(wire)`) for robust, order-independent routing |
+
+
 *More sections will be added as I progress through the problem sets.*
