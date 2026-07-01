@@ -43,6 +43,11 @@ I am using this repository to practice writing clean, readable hardware descript
 | Module Instantiation (Base) | `modules/module_pos.v` <br> `modules/module_name.v` | Introduction to hierarchical design, instantiating sub-modules, and connecting basic scalar signals |
 | Modules by Position (`mod_a`) | `modules/moda_pos.v` | Connecting multiple inputs and outputs to a sub-module based strictly on structural ordering |
 | Modules by Name (`mod_a`) | `modules/moda_name.v` | Utilizing explicit named port connections (`.port(wire)`) for robust, order-independent routing |
+| Module Shift | `modules/module_shift.v` | Chaining multiple structural sub-modules together using internal wires to create sequential shift registers |
+| Module Shift8 | `modules/module_shift8.v` | Connecting multi-bit vector buses across cascaded sub-modules and using combinational `always @(*)` case blocks to build multiplexer logic |
+| Module Add | `modules/module_add.v` | Structural 32-bit addition splitting vector slices into dual pre-defined 16-bit blocks |
+| Module Fadd | `modules/module_fadd.v` | Implementing a low-level 1-bit full adder sub-module using dataflow assign gate logic |
+
 
 
 *More sections will be added as I progress through the problem sets.*
