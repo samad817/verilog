@@ -47,7 +47,8 @@ I am using this repository to practice writing clean, readable hardware descript
 | Module Shift8 | `modules/module_shift8.v` | Connecting multi-bit vector buses across cascaded sub-modules and using combinational `always @(*)` case blocks to build multiplexer logic |
 | Module Add | `modules/module_add.v` | Structural 32-bit addition splitting vector slices into dual pre-defined 16-bit blocks |
 | Module Fadd | `modules/module_fadd.v` | Implementing a low-level 1-bit full adder sub-module using dataflow assign gate logic |
-
+| Module Cseladd | `modules/module_cseladd.v` | Implementing a Carry-Select Adder architecture to reduce propagation delay by pre-computing upper additions for both possible carry states |
+| Module Addsub | `modules/module_addsub.v` | Designing a configurable 32-bit adder-subtractor unit by replicating a 1-bit control signal into a full vector mask for bitwise inversion logic |
 
 
 *More sections will be added as I progress through the problem sets.*
