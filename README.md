@@ -51,4 +51,18 @@ I am using this repository to practice writing clean, readable hardware descript
 | Module Addsub | `modules/module_addsub.v` | Designing a configurable 32-bit adder-subtractor unit by replicating a 1-bit control signal into a full vector mask for bitwise inversion logic |
 
 
+## 4.verilog procedures
+
+| Problem Statement | Solution Module | Concepts Covered |
+| :--- | :--- | :--- |
+| Alwaysblock1 | `procedures/always_block1.v` | Comparing continuous wire assignments against procedural combinational always blocks for identical gate synthesis |
+| Alwaysblock2 | `procedures/always_block2.v` | Synthesizing and contrasting continuous wire assignments, combinational always blocks, and clocked sequential flip-flops |
+| Always If | `procedures/always_if.v` | Implementing 2-to-1 multiplexer routing logic using ternary assignments and procedural if-else constructs |
+| Always If2 | `procedures/always_if2.v` | Eliminating unintentional hardware latches in combinational always blocks by assigning default output states |
+| Always Case | `procedures/always_case.v` | Designing a multi-channel 4-bit multiplexer using a procedural case statement with a fallback default state |
+| Always Case2 | `procedures/always_case2.v` | Building a 4-bit priority encoder using the case-select constant pattern to enforce sequential hardware priority |
+| Always Casez | `procedures/always_casez.v` | Utilizing casez statements and wildcard don't-care bitmasks to implement a priority encoder for large vector buses |
+| Always Nolatches | `procedures/always_nolatches.v` | Preventing latch synthesis in combinational decoder structures by preemptively assigning default low states to all output buses |
+
+
 *More sections will be added as I progress through the problem sets.*
